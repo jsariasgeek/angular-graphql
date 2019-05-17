@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-1">
+    {{link.id}}
+  </div>
+  <div class="col-md-4">
+    {{link.description}}
+  </div>
+  <div class="col-md-4">
+    {{link.url}}
+  </div>
+  <div class="col-md-3">
+    <button (click)="deleteLink(link.id)">Delete</button>
+  </div>
+</div>
